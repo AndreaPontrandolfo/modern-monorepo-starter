@@ -10,21 +10,6 @@
     "dev": "turbo run dev",
     "build": "turbo run build"
   },
-  "turbo": {
-    "pipeline": {
-      "dev": {
-        "cache": false
-      },
-      "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": [
-          "dist/**"
-        ]
-      }
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
