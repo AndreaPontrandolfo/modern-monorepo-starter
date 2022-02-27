@@ -1,0 +1,14 @@
+- PNPM
+- typescript
+- turborepo
+- tsup
+- changesets
+- github actions
+- eslint
+- prettier
+- husky
+- jest
+- tsdx stuff
+- Packages should be written in TypeScript and expose their type definitions
+- shared eslint config on all packages
+
