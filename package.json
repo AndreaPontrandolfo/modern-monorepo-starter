@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
     "build": "turbo run build"
   },
@@ -20,5 +21,8 @@
     "husky": "^6.0.0",
     "typescript": "^4.3.2"
   },
-  "packageManager": "pnpm@6.32.2"
+  "packageManager": "pnpm@6.32.2",
+  "engines": {
+    "pnpm": ">=6"
+  }
 }
