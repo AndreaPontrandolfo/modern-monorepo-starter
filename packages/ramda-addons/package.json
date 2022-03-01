@@ -1,0 +1,36 @@
+{
+  "name": "@monorepo/ramda-addons",
+  "version": "1.0.0",
+  "description": "An extension of Ramdajs.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "author": "Andrea Pontrandolfo",
+  "license": "MIT",
+  "peerDependencies": {
+    "ramda": ">= 0.28.0 <= 0.28.0"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.28.0",
+    "ramda": "=0.28.0",
+    "tsup": "^5.11.13"
+  },
+  "browser": "dist/index.js",
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
