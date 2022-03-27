@@ -3,7 +3,43 @@
   "version": "1.0.0",
   "description": "The organization component library.",
   "main": "src/index.ts",
-  "scripts": {},
+  "module": "dist/mylib.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "analyze": "size-limit --why",
+    "build": "dts build",
+    "build-storybook": "build-storybook",
+    "lint": "dts lint",
+    "prepare": "dts build",
+    "size": "size-limit",
+    "start": "dts watch",
+    "storybook": "start-storybook -p 6006",
+    "test": "dts test --passWithNoTests"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "dts lint"
+    }
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "author": "Andrea Pontrandolfo",
   "license": "MIT",
   "devDependencies": {
@@ -13,8 +49,5 @@
     "access": "public",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts"
-  },
-  "files": [
-    "dist/*"
-  ]
+  }
 }
