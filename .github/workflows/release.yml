@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: install pnpm
-        uses: pnpm/action-setup@latest
+        uses: pnpm/action-setup@2.2.1
         with:
           version: latest
       - name: setup node.js
