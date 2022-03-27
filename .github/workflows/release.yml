@@ -26,15 +26,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14.x
+          cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org'
           always-auth: true
-      - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
       - name: install dependencies
@@ -42,6 +36,7 @@ jobs:
       - name: build packages dists
         run: pnpm build
       - name: create and publish versions
+        id: changesets
         uses: changesets/action@v1
         with:
           version: pnpm ci:version
