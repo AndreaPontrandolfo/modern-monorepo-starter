@@ -1,0 +1,35 @@
+{
+  "name": "@monorepo/lodash-addons",
+  "version": "1.0.0",
+  "description": "An extension of Lodash.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "author": "Andrea Pontrandolfo",
+  "license": "MIT",
+  "peerDependencies": {
+    "lodash": ">= 4.17.21 <= 4.17.21"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "tsup": "^5.11.13"
+  },
+  "browser": "dist/index.js",
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
