@@ -32,9 +32,11 @@ importers:
 
   packages/lodash-addons:
     specifiers:
+      '@types/lodash': ^4.14.180
       lodash: ^4.17.21
       tsup: ^5.11.13
     devDependencies:
+      '@types/lodash': 4.14.180
       lodash: 4.17.21
       tsup: 5.11.13_typescript@4.5.5
 
@@ -1912,6 +1914,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    dev: true
+
+  /@types/lodash/4.14.180:
+    resolution: {integrity: sha512-XOKXa1KIxtNXgASAnwj7cnttJxS4fksBRywK/9LzRV5YxrF80BXZIGeQSuoESQ/VkUj30Ae0+YcuHc15wJCB2g==}
     dev: true
 
   /@types/minimatch/3.0.5:
