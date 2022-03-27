@@ -1,6 +1,6 @@
 {
-  "name": "@monorepo/ramda-addons",
-  "version": "2.0.0",
+  "name": "@ap-monorepo/ramda-addons",
+  "version": "1.0.0",
   "description": "An extension of Ramdajs.",
   "main": "src/index.ts",
   "scripts": {

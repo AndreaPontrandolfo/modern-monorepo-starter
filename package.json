@@ -12,7 +12,7 @@
     "build": "turbo run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrea Pontrandolfo",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.21.0",
