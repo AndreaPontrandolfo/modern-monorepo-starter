@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/js-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A bunch of Javascript utility functions written in Typescript.",
   "main": "src/index.ts",
   "scripts": {
