@@ -1,16 +1,3 @@
-- PNPM
-- typescript
-- turborepo
-- tsup
-- changesets
-- github actions
-- eslint
-- prettier
-- husky
-- jest
-- tsdx stuff
-- dependabot o renovatebot
-- .npmrc
-- Packages should be written in TypeScript and expose their type definitions
-- shared eslint config on all packages
+# Modern Monorepo Starter
 
+## This is a template for PNPM workspaces and Turborepo managed monorepos.

@@ -26,5 +26,6 @@
       { "path": "./packages/ramda-addons/" }, 
       { "path": "./packages/js-utils/" },
       { "path": "./packages/lodash-addons/" },
+      { "path": "./packages/component-library/" },
     ]
   }

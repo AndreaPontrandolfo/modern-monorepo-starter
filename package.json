@@ -9,7 +9,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "release": "pnpm build && changeset publish"
   },
   "keywords": [],
   "author": "",
