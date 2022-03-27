@@ -1,5 +1,5 @@
 {
-  "name": "@ap-monorepo/js-utils",
+  "name": "@andreapontrandolfo/js-utils",
   "version": "1.0.0",
   "description": "A bunch of Javascript utility functions written in Typescript.",
   "main": "src/index.ts",

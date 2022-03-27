@@ -1,5 +1,5 @@
 {
-  "name": "@ap-monorepo/lodash-addons",
+  "name": "@andreapontrandolfo/lodash-addons",
   "version": "1.0.0",
   "description": "An extension of Lodash.",
   "main": "src/index.ts",

@@ -1,5 +1,5 @@
 {
-  "name": "@ap-monorepo/component-library",
+  "name": "@andreapontrandolfo/component-library",
   "version": "1.0.0",
   "description": "The organization component library.",
   "main": "dist/index.js",
