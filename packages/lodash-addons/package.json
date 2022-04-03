@@ -20,9 +20,9 @@
     "lodash": ">= 4.17.21 <= 4.17.21"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.180",
-    "lodash": "^4.17.21",
-    "tsup": "^5.11.13"
+    "@types/lodash": "4.14.181",
+    "lodash": "4.17.21",
+    "tsup": "5.12.4"
   },
   "browser": "dist/index.js",
   "publishConfig": {
