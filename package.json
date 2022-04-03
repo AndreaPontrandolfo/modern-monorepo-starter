@@ -1,6 +1,7 @@
 {
   "name": "turborepo-pnpm",
   "private": true,
+  "repository": "https://github.com/AndreaPontrandolfo/modern-monorepo-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +12,11 @@
     "preinstall": "npx only-allow pnpm",
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "manypkg:check": "manypkg check",
+    "manypkg:fix": "manypkg fix",
+    "changeset": "pnpm changeset",
     "ci:version": "pnpm changeset version",
-    "ci:publish": "pnpm -r publish"
+    "ci:publish": "pnpm -r publish --access public"
   },
   "keywords": [],
   "author": "Andrea Pontrandolfo",
@@ -28,5 +32,8 @@
   "packageManager": "pnpm@6.32.2",
   "engines": {
     "pnpm": ">=6"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.19.1"
   }
 }

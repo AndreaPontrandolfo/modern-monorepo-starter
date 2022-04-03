@@ -23,7 +23,8 @@
   "publishConfig": {
     "access": "public",
     "main": "dist/index.js",
-    "typings": "dist/index.d.ts"
+    "typings": "dist/index.d.ts",
+    "@andreapontrandolfo:registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist/*"
