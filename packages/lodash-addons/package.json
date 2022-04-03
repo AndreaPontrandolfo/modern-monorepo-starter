@@ -1,6 +1,6 @@
 {
   "name": "@andreapontrandolfo/lodash-addons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An extension of Lodash.",
   "main": "src/index.ts",
   "scripts": {
