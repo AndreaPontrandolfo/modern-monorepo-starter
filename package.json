@@ -22,7 +22,7 @@
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "2.22.0",
-    "@types/node": "15.14.9",
+    "@types/node": "16.11.26",
     "husky": "6.0.0",
     "pnpm": "6.32.4",
     "turbo": "1.1.10",
