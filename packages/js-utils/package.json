@@ -24,7 +24,7 @@
     "access": "public",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
-    "@andreapontrandolfo:registry": "https://npm.pkg.github.com"
+    "@andreapontrandolfo:registry": "https://registry.npmjs.org/"
   },
   "files": [
     "dist/*"
