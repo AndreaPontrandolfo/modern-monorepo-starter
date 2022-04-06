@@ -1,6 +1,7 @@
 {
   "name": "@andreapontrandolfo/eslint-config",
   "version": "0.2.0",
+  "main": "index.js",
   "description": "Shared Eslint config.",
   "scripts": {},
   "author": "Andrea Pontrandolfo",
@@ -35,9 +36,6 @@
     "main": "index.js",
     "@andreapontrandolfo:registry": "https://registry.npmjs.org/"
   },
-  "files": [
-    "dist/*"
-  ],
   "engines": {
     "node": ">=14.0.0"
   }
