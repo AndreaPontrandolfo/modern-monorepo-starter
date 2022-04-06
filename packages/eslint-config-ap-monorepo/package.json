@@ -14,7 +14,7 @@
     "styleguide"
   ],
   "dependencies": {
-    "@babel/core": "7.17.8",
+    "@babel/core": "7.17.9",
     "@babel/eslint-parser": "^7.17.0",
     "@shopify/eslint-plugin": "41.2.0",
     "eslint-config-prettier": "8.5.0",
