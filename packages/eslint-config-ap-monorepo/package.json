@@ -2,10 +2,6 @@
   "name": "@andreapontrandolfo/eslint-config",
   "version": "0.1.1",
   "description": "Shared Eslint config.",
-  "main": "index.js",
-  "exports": {
-    ".": "./index.js"
-  },
   "scripts": {},
   "author": "Andrea Pontrandolfo",
   "license": "MIT",
@@ -16,11 +12,10 @@
     "prettier",
     "styleguide"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "7.17.8",
     "@babel/eslint-parser": "^7.17.0",
     "@shopify/eslint-plugin": "41.2.0",
-    "eslint": "8.12.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-prefer-optional-chaining": "0.0.1",
@@ -29,8 +24,11 @@
     "eslint-plugin-unicorn": "42.0.0",
     "prettier": "2.6.2"
   },
+  "devDependencies": {
+    "eslint": "8.12.0"
+  },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 8"
   },
   "publishConfig": {
     "access": "public",
@@ -39,5 +37,8 @@
   },
   "files": [
     "dist/*"
-  ]
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

@@ -53,10 +53,8 @@ module.exports = {
       'error',
       {
         selector: 'FunctionDeclaration',
-        message: `Do not use a function declaration. Use a function expression instead:
-const x = function () {
-};
-`,
+        message:
+          'Do not use a function declaration. Use a function expression instead: const x = function () { ... };',
       },
       {
         selector: 'ExportDefaultDeclaration',
@@ -167,7 +165,7 @@ const x = function () {
     // import/no-unused-modules
     // import/no-cycle {maxDepth: 6, ignoreExternal: true}
     // import/extensions
-    // https://eslint.org/docs/rules/guard-for-in oppure no-restricted-syntax con ForInStatement, suggerire di usare Object.keys e loopare l’array con for...of
+    // https://eslint.org/docs/rules/guard-for-in or no-restricted-syntax con ForInStatement, suggerire di usare Object.keys e loopare l’array con for...of
   },
   ignorePatterns: ['node_modules/'],
 };
