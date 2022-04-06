@@ -1,5 +1,11 @@
 # @andreapontrandolfo/eslint-config
 
+## 0.2.1
+
+### Patch Changes
+
+- e70a411b: changed entry point to a valid one
+
 ## 0.2.0
 
 ### Minor Changes
