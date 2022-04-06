@@ -66,6 +66,7 @@ importers:
   packages/eslint-config-ap-monorepo:
     specifiers:
       '@babel/core': 7.17.8
+      '@babel/eslint-parser': ^7.17.0
       '@shopify/eslint-plugin': 41.2.0
       eslint: 8.12.0
       eslint-config-prettier: 8.5.0
@@ -77,6 +78,7 @@ importers:
       prettier: 2.6.2
     devDependencies:
       '@babel/core': 7.17.8
+      '@babel/eslint-parser': 7.17.0_@babel+core@7.17.8+eslint@8.12.0
       '@shopify/eslint-plugin': 41.2.0_c78913294c7452fc8c2190c640fa7506
       eslint: 8.12.0
       eslint-config-prettier: 8.5.0_eslint@8.12.0
