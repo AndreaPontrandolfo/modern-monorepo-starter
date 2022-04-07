@@ -33,7 +33,7 @@ importers:
       '@tsconfig/create-react-app': 1.0.2
       '@tsconfig/recommended': 1.0.1
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
       babel-loader: 8.2.4
       dts-cli: 1.4.0
       react: 17.0.2
@@ -53,7 +53,7 @@ importers:
       '@tsconfig/create-react-app': 1.0.2
       '@tsconfig/recommended': 1.0.1
       '@types/react': 17.0.43
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
       babel-loader: 8.2.4_@babel+core@7.17.9
       dts-cli: 1.4.0_@types+node@16.11.26
       react: 17.0.2
@@ -4496,8 +4496,8 @@ packages:
       '@types/react': 17.0.43
     dev: true
 
-  /@types/react-dom/17.0.14:
-    resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
+  /@types/react-dom/17.0.15:
+    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
     dependencies:
       '@types/react': 17.0.43
     dev: true
