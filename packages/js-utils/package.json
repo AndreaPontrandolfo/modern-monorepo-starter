@@ -1,6 +1,6 @@
 {
   "name": "@andreapontrandolfo/js-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A bunch of Javascript utility functions written in Typescript.",
   "main": "src/index.ts",
   "scripts": {

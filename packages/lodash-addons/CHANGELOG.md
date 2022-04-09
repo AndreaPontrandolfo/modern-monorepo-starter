@@ -1,5 +1,11 @@
 # @andreapontrandolfo/lodash-addons
 
+## 1.0.4
+
+### Patch Changes
+
+- 10a712c2: fake bump
+
 ## 1.0.3
 
 ### Patch Changes
