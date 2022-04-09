@@ -1,5 +1,11 @@
 # @andreapontrandolfo/eslint-config
 
+## 0.2.2
+
+### Patch Changes
+
+- 10a712c2: fake bump
+
 ## 0.2.1
 
 ### Patch Changes

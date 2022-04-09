@@ -1,5 +1,11 @@
 # @andreapontrandolfo/js-utils
 
+## 1.0.3
+
+### Patch Changes
+
+- 10a712c2: fake bump
+
 ## 1.0.2
 
 ### Patch Changes
