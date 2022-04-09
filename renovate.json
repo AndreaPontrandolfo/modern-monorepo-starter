@@ -6,7 +6,7 @@
       "automerge": true
     },
     {
-      "matchDepTypes": ["dependencies", "devDependencies"],
+      "matchDepTypes": ["devDependencies"],
       "automerge": true
     }
   ],
