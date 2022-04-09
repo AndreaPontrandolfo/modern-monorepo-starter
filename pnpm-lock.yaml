@@ -8,7 +8,7 @@ importers:
       '@manypkg/cli': 0.19.1
       '@types/node': 16.11.26
       husky: 7.0.4
-      pnpm: 6.32.4
+      pnpm: 6.32.6
       turbo: 1.1.10
       typescript: 4.6.3
     dependencies:
@@ -17,7 +17,7 @@ importers:
       '@changesets/cli': 2.22.0
       '@types/node': 16.11.26
       husky: 7.0.4
-      pnpm: 6.32.4
+      pnpm: 6.32.6
       turbo: 1.1.10
       typescript: 4.6.3
 
@@ -12170,8 +12170,8 @@ packages:
       - typescript
     dev: true
 
-  /pnpm/6.32.4:
-    resolution: {integrity: sha512-rOG+VpOzs6g/MR5HWc8KTlLAx3ljdRJCMQwSg1DE/hzAaqF/Y2zIHH0u6dZw/XnRb9w1U8rOs9MJT9jMt7e+Qw==}
+  /pnpm/6.32.6:
+    resolution: {integrity: sha512-ucrdCw3F/qjjzoR9+UtLXH1jkDqsbinz+hzSz54WQOOPt/F+9uxm8irrO/mdGkmsy844kAX6vsfS85gZLTg+yA==}
     engines: {node: '>=12.17'}
     hasBin: true
     dev: true
