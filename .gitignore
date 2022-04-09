@@ -1,5 +1,8 @@
-.turbo
 node_modules
+coverage
 dist
 build
 .pnpm-store
+.turbo
+.github
+.changeset

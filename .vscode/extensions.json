@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+      "microsoft.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }

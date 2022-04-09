@@ -1,4 +1,9 @@
 node_modules
-.turbo
-dist
 coverage
+dist
+build
+.pnpm-store
+.turbo
+.github
+.changeset
+.vscode
