@@ -1,5 +1,11 @@
 # @andreapontrandolfo/eslint-config
 
+## 0.2.3
+
+### Patch Changes
+
+- ed2833fc: tweaking eslint config to accomodate husky stuff
+
 ## 0.2.2
 
 ### Patch Changes
