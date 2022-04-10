@@ -4,5 +4,3 @@ dist
 build
 .pnpm-store
 .turbo
-.github
-.changeset
