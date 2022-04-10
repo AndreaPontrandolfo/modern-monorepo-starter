@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-pnpm",
+  "name": "modern-monorepo-starter",
   "private": true,
   "repository": "https://github.com/AndreaPontrandolfo/modern-monorepo-starter",
   "version": "1.0.0",
@@ -33,6 +33,7 @@
     "husky": "7.0.4",
     "lint-staged": "^12.3.7",
     "pnpm": "6.32.6",
+    "prettier": "2.6.2",
     "turbo": "1.2.1",
     "typescript": "4.6.3"
   },

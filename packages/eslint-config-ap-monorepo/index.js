@@ -79,7 +79,6 @@ module.exports = {
     ],
 
     'prefer-rest-params': 2,
-    'arrow-body-style': [1, 'as-needed'],
     'no-unused-expressions': [
       2,
       {
@@ -96,7 +95,6 @@ module.exports = {
         properties: 'never',
       },
     ],
-    'prefer-arrow-callback': 2,
     'prefer-const': 2,
     'no-return-assign': [2, 'always'],
     'no-else-return': 2,
@@ -157,7 +155,30 @@ module.exports = {
       },
     ],
     'no-eval': 2,
-    'prettier/prettier': 2,
+    'prettier/prettier': [
+      2,
+      {
+        trailingComma: 'es5',
+        semi: true,
+        singleQuote: true,
+        bracketSpacing: true,
+        bracketSameLine: false,
+        printWidth: 85,
+        arrowParens: 'avoid',
+        parser: 'babel',
+        tabWidth: 2,
+        quoteProps: 'as-needed',
+        endOfLine: 'crlf',
+        overrides: [
+          {
+            files: '*.css',
+            options: {
+              parser: 'css',
+            },
+          },
+        ],
+      },
+    ],
     // to consider...
     // no-negated-condition
     // unicorn/prefer-switch
