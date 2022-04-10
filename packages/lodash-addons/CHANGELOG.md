@@ -1,5 +1,11 @@
 # @andreapontrandolfo/lodash-addons
 
+## 1.0.5
+
+### Patch Changes
+
+- ed2833fc: tweaking eslint config to accomodate husky stuff
+
 ## 1.0.4
 
 ### Patch Changes
