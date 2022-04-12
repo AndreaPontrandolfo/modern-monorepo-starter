@@ -24,7 +24,7 @@
     "@types/lodash": "4.14.181",
     "eslint": "8.12.0",
     "lodash": "4.17.21",
-    "tsup": "5.12.4"
+    "tsup": "5.12.5"
   },
   "browser": "dist/index.js",
   "publishConfig": {

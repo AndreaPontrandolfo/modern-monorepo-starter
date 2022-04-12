@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/ramda": "0.28.7",
     "ramda": "=0.28.0",
-    "tsup": "5.12.4"
+    "tsup": "5.12.5"
   },
   "browser": "dist/index.js",
   "publishConfig": {
