@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@andreapontrandolfo/eslint-config": "0.2.3",
-    "@types/lodash": "4.14.181",
+    "@types/lodash": "4.14.182",
     "eslint": "8.13.0",
     "lodash": "4.17.21",
     "tsup": "5.12.5"
