@@ -42,7 +42,7 @@ importers:
       '@tsconfig/recommended': 1.0.1
       '@types/react': 18.0.5
       '@types/react-dom': 17.0.15
-      babel-loader: 8.2.4
+      babel-loader: 8.2.5
       dts-cli: 1.5.0
       react: 18.0.0
       react-dom: 18.0.0
@@ -53,7 +53,7 @@ importers:
     devDependencies:
       '@babel/core': 7.17.9
       '@size-limit/preset-small-lib': 7.0.8_size-limit@7.0.8
-      '@storybook/addon-essentials': 6.4.21_b2a284e19f0631895fa91c31532c4db6
+      '@storybook/addon-essentials': 6.4.21_43a041d5966f9d33a5f2b230d63a55e3
       '@storybook/addon-info': 5.3.21_9acc4a3e2379a6a4e88c9cf4a11f9c7e
       '@storybook/addon-links': 6.4.21_react-dom@18.0.0+react@18.0.0
       '@storybook/addons': 6.4.21_react-dom@18.0.0+react@18.0.0
@@ -62,7 +62,7 @@ importers:
       '@tsconfig/recommended': 1.0.1
       '@types/react': 18.0.5
       '@types/react-dom': 17.0.15
-      babel-loader: 8.2.4_@babel+core@7.17.9
+      babel-loader: 8.2.5_@babel+core@7.17.9
       dts-cli: 1.5.0_@types+node@16.11.26
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
@@ -3154,7 +3154,7 @@ packages:
       - webpack-command
     dev: true
 
-  /@storybook/addon-essentials/6.4.21_b2a284e19f0631895fa91c31532c4db6:
+  /@storybook/addon-essentials/6.4.21_43a041d5966f9d33a5f2b230d63a55e3:
     resolution: {integrity: sha512-2vhbzSMAfQ2Trwrg7E+doWLHy++mhXtV+ksgezo7PATMCKnBK6ItUwGvL7fQzLtaz+JbLqx/tgI8spMCUod+BA==}
     peerDependencies:
       '@babel/core': ^7.9.6
@@ -3191,7 +3191,7 @@ packages:
       '@storybook/addons': 6.4.21_react-dom@18.0.0+react@18.0.0
       '@storybook/api': 6.4.21_react-dom@18.0.0+react@18.0.0
       '@storybook/node-logger': 6.4.21
-      babel-loader: 8.2.4_@babel+core@7.17.9
+      babel-loader: 8.2.5_@babel+core@7.17.9
       core-js: 3.21.1
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
@@ -3516,7 +3516,7 @@ packages:
       '@types/node': 14.18.12
       '@types/webpack': 4.41.32
       autoprefixer: 9.8.8
-      babel-loader: 8.2.4_598a497cebab8e15ee8f9e5632178e63
+      babel-loader: 8.2.5_598a497cebab8e15ee8f9e5632178e63
       babel-plugin-macros: 2.8.0
       babel-plugin-polyfill-corejs3: 0.1.7_@babel+core@7.17.9
       case-sensitive-paths-webpack-plugin: 2.4.0
@@ -3812,7 +3812,7 @@ packages:
       '@storybook/semver': 7.3.2
       '@types/node': 14.18.12
       '@types/pretty-hrtime': 1.0.1
-      babel-loader: 8.2.4_598a497cebab8e15ee8f9e5632178e63
+      babel-loader: 8.2.5_598a497cebab8e15ee8f9e5632178e63
       babel-plugin-macros: 3.1.0
       babel-plugin-polyfill-corejs3: 0.1.7_@babel+core@7.17.9
       chalk: 4.1.2
@@ -4054,7 +4054,7 @@ packages:
       '@storybook/ui': 6.4.21_4ba69c7787dfd9a3579e23e97d93e7b4
       '@types/node': 14.18.12
       '@types/webpack': 4.41.32
-      babel-loader: 8.2.4_598a497cebab8e15ee8f9e5632178e63
+      babel-loader: 8.2.5_598a497cebab8e15ee8f9e5632178e63
       case-sensitive-paths-webpack-plugin: 2.4.0
       chalk: 4.1.2
       core-js: 3.21.1
@@ -5673,8 +5673,8 @@ packages:
       - supports-color
     dev: true
 
-  /babel-loader/8.2.4_598a497cebab8e15ee8f9e5632178e63:
-    resolution: {integrity: sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==}
+  /babel-loader/8.2.5_598a497cebab8e15ee8f9e5632178e63:
+    resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -5688,8 +5688,8 @@ packages:
       webpack: 4.46.0
     dev: true
 
-  /babel-loader/8.2.4_@babel+core@7.17.9:
-    resolution: {integrity: sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==}
+  /babel-loader/8.2.5_@babel+core@7.17.9:
+    resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
       '@babel/core': ^7.0.0
