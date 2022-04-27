@@ -52,9 +52,9 @@
     "@types/react-dom": "17.0.16",
     "babel-loader": "8.2.5",
     "dts-cli": "1.5.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-is": "18.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-is": "18.1.0",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
     "typescript": "4.6.3"
