@@ -120,11 +120,11 @@ importers:
 
   packages/ramda-addons:
     specifiers:
-      '@types/ramda': 0.28.11
+      '@types/ramda': 0.28.12
       ramda: '=0.28.0'
       tsup: 5.12.6
     devDependencies:
-      '@types/ramda': 0.28.11
+      '@types/ramda': 0.28.12
       ramda: 0.28.0
       tsup: 5.12.6_typescript@4.6.3
 
@@ -4645,8 +4645,8 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
 
-  /@types/ramda/0.28.11:
-    resolution: {integrity: sha512-FG40c+CduBSpGL6gh9M2Ybe+Rhkj/G6HeCnvufO1HbEcnY5fbFfL7EPuj1mXNcEKfxdZw6mRu4cy+GMHen79DQ==}
+  /@types/ramda/0.28.12:
+    resolution: {integrity: sha512-01lBa/nWJMmzc7uwvN4pzoePRWMURV1uRpchCpomAFW1MvMSyOtHjj8/WpaCFrrBQ8Mvpasm/CK3YpcWbVcZ3g==}
     dependencies:
       ts-toolbelt: 6.15.5
     dev: true
