@@ -16,7 +16,7 @@
   "dependencies": {
     "@babel/core": "7.17.9",
     "@babel/eslint-parser": "^7.17.0",
-    "@shopify/eslint-plugin": "41.2.0",
+    "@shopify/eslint-plugin": "41.3.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-prefer-optional-chaining": "0.0.1",
