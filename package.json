@@ -28,7 +28,7 @@
     "@changesets/cli": "2.22.0",
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
-    "@types/node": "16.11.26",
+    "@types/node": "16.18.3",
     "husky": "7.0.4",
     "lint-staged": "12.4.0",
     "pnpm": "6.32.11",
